@@ -1,5 +1,5 @@
 # Live Instance Viewer
-[![Build Status](https://travis-ci.org/peteruhnak/live-instance-viewer.svg?branch=master)](https://travis-ci.org/peteruhnak/live-instance-viewer)
+[![Build Status](https://travis-ci.org/peteruhnak/live-instance-viewer.svg?branch=master)](https://travis-ci.org/peteruhnak/live-instance-viewer) [![Coverage Status](https://coveralls.io/repos/github/peteruhnak/live-instance-viewer/badge.svg)](https://coveralls.io/github/peteruhnak/live-instance-viewer)
 
 Pharo utility for visualizing OO instance structure during runtime via UML instance models.
 

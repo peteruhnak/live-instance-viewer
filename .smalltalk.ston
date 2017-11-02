@@ -7,6 +7,9 @@ SmalltalkCISpec {
 		}
 	],
 	#testing : {
-		#packages : [ 'LivInstanceVisualization' ]
+		#packages : [ 'LiveInstanceVisualization' ],
+		#coverage : {
+			#packages : [ 'LiveInstanceVisualization' ]
+		}
 	}
 }
