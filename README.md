@@ -14,6 +14,17 @@ A custom Debugger is provided capable of displaying a model representation along
 
 ## Installation
 
+```smalltalk
+Metacello new
+	baseline: 'FileDialog';
+	repository: 'github://peteruhnak/live-instance-viewer/repository';
+	load.
+```
+
+## Technical Paper
+
+For in-depth presentation, you can read a paper presented at IWST'17: [instance_visualizations_Uhnak.pdf](instance_visualizations_Uhnak.pdf)
+
 ## Example
 
 ![](figures/container-model.png)
