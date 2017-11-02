@@ -5,7 +5,7 @@ gtInspectorModelViewIn: composite
 		title: '[LIV] Instance Model';
 		initializeView: [ | v |
 			v := RTView new.
-			OPUMLRTInteractiveViewContext setOnView: v.
+			LIVRTInteractiveViewContext setOnView: v.
 			self renderIn: v.
 			self showDiffIn: v.
 			v @ RTDraggableView @ RTZoomableView.

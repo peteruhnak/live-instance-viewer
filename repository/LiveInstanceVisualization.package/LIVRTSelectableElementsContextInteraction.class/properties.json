@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "LIVSelectableModelElementContextInteraction",
+	"name" : "LIVRTSelectableElementsContextInteraction",
 	"type" : "normal"
 }

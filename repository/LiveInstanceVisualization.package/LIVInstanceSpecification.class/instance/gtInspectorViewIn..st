@@ -5,7 +5,7 @@ gtInspectorViewIn: composite
 		title: 'Instance';
 		initializeView: [ | v |
 			v := RTView new.
-			OPUMLRTInteractiveViewContext setOnView: v.
+			LIVRTInteractiveViewContext setOnView: v.
 			self asShape renderIn: v.
 			v @ RTDraggableView @ RTZoomableView.
 			v ]

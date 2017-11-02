@@ -1,6 +1,6 @@
 roassal - drawing
 applyFocusedLayoutIn: aView on: shapes focus: aFocus
-	| distance circles els enableCircles |
+"	| distance circles els enableCircles |
 	distance := 400.
 	enableCircles := true.
 	enableCircles
@@ -24,4 +24,4 @@ applyFocusedLayoutIn: aView on: shapes focus: aFocus
 	LaFocusedRadialLayout new
 		radius: distance / 2;
 		setFocus: aFocus nodes: els edges: #();
-		apply
+		apply"

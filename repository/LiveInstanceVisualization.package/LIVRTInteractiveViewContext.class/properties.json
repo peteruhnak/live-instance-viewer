@@ -6,6 +6,6 @@
 	"pools" : [ ],
 	"classvars" : [ ],
 	"instvars" : [ ],
-	"name" : "LIVInteractiveViewContext",
+	"name" : "LIVRTInteractiveViewContext",
 	"type" : "normal"
 }

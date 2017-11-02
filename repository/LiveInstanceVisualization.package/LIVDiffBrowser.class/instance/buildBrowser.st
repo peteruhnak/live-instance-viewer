@@ -24,7 +24,7 @@ buildBrowser
 				when: [ left isNotNil & right isNotNil ];
 				initializeView: [ | v diff colorer |
 					v := RTView new.
-					OPUMLRTInteractiveViewContext setOnView: v.
+					LIVRTInteractiveViewContext setOnView: v.
 					right renderIn: v.
 					diff := LIVInstanceModelDiff new diffBetween: left and: right.
 					colorer := LIVInstanceDiffColorer new.

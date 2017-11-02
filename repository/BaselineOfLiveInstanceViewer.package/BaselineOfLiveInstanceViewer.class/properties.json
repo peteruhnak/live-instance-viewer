@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "PeterUhnak 11/2/2017 13:57",
+	"super" : "BaselineOf",
+	"category" : "BaselineOfLiveInstanceViewer",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "BaselineOfLiveInstanceViewer",
+	"type" : "normal"
+}
