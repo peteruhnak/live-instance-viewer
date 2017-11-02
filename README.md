@@ -1,5 +1,6 @@
 # Live Instance Viewer
 [![Build Status](https://travis-ci.org/peteruhnak/live-instance-viewer.svg?branch=master)](https://travis-ci.org/peteruhnak/live-instance-viewer)
+
 Pharo utility for visualizing OO instance structure during runtime via UML instance models.
 
 The utility hooks directly into executed code via MetaLinks, and maintains a representation of the state of objects in a UML instance-like model. Additionally it is possible to further annotate the instance model and compute new information that otherwise wouldn't be easily retrievable by analyzing the code or the program state alone.
