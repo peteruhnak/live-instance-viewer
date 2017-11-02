@@ -16,7 +16,7 @@ A custom Debugger is provided capable of displaying a model representation along
 
 ```smalltalk
 Metacello new
-	baseline: 'FileDialog';
+	baseline: 'LiveInstanceViewer';
 	repository: 'github://peteruhnak/live-instance-viewer/repository';
 	load.
 ```
