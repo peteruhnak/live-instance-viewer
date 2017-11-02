@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "LiveInstanceVisualization-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"model",
+		"spec"
+	],
+	"name" : "LIVInstanceSpecificationTest",
+	"type" : "normal"
+}

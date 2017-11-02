@@ -1,0 +1,17 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "LiveInstanceVisualization-Models",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"name",
+		"classifier",
+		"slots",
+		"instanceHash",
+		"style"
+	],
+	"name" : "LIVInstanceSpecification",
+	"type" : "normal"
+}

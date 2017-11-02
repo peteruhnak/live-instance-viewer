@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "LiveInstanceVisualization-Inspector-Extensions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"mondrian"
+	],
+	"name" : "LIVExpandableCallGraphVisualization",
+	"type" : "normal"
+}

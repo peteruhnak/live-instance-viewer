@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "GTGenericStackDebugger",
+	"category" : "LiveInstanceVisualization-Debugger",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "LIVDebugger",
+	"type" : "normal"
+}

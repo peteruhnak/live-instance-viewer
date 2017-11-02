@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "DebugSession",
+	"category" : "LiveInstanceVisualization-Debugger",
+	"classinstvars" : [
+		"modelHistory"
+	],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "LIVDebugSession",
+	"type" : "normal"
+}

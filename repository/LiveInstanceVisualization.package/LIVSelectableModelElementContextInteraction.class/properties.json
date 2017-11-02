@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "RTAbstractContextInteraction",
+	"category" : "LiveInstanceVisualization-Roassal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "LIVSelectableModelElementContextInteraction",
+	"type" : "normal"
+}

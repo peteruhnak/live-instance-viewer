@@ -1,0 +1,15 @@
+{
+	"commentStamp" : "",
+	"super" : "Object",
+	"category" : "LiveInstanceVisualization-Inspector-Extensions",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"model",
+		"baseShape",
+		"nameShape"
+	],
+	"name" : "LIVClassBoxBuilder",
+	"type" : "normal"
+}
