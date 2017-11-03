@@ -1,5 +1,5 @@
 as yet unclassified
-scenarioRunning
+runScenario
 | container item1 item2 |
 container := LIVTestContainer new.
 item1 := LIVTestItem new.

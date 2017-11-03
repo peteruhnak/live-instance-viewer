@@ -5,7 +5,11 @@
 	"classinstvars" : [ ],
 	"pools" : [ ],
 	"classvars" : [ ],
-	"instvars" : [ ],
+	"instvars" : [
+		"history",
+		"links",
+		"modelDefs"
+	],
 	"name" : "LIVExampleScenario",
 	"type" : "normal"
 }

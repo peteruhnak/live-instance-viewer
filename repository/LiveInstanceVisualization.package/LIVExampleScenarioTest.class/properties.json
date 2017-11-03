@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "",
+	"super" : "TestCase",
+	"category" : "LiveInstanceVisualization-Tests",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"scenario"
+	],
+	"name" : "LIVExampleScenarioTest",
+	"type" : "normal"
+}

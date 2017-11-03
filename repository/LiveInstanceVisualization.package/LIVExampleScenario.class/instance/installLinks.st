@@ -1,6 +1,5 @@
 as yet unclassified
-scenario
-| modelDefs history links |
+installLinks
 modelDefs := LIVInstanceCompositeSpecificationBuilder new.
 modelDefs addSpec: [ :spec |
 	spec classifier: LIVTestContainer.
@@ -87,8 +86,11 @@ link
 ].
 	
 links install.
+
+"Open tools if needed
 LIVDiffBrowser openOn: history.
 history inspect.
+"
 
 "
 links uninstall

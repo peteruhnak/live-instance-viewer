@@ -4,6 +4,12 @@ baseline: spec
 	spec
 		for: #common
 		do: [ spec
+				project: 'DeepTraverser'
+				with: [ spec
+						className: #ConfigurationOfDeepTraverser2;
+						versionString: #development;
+						repository: 'http://www.smalltalkhub.com/mc/Moose/DeepTraverser/main' ].
+			spec
 				baseline: 'UMLShapes'
 				with: [ spec repository: 'github://openponk/uml-shapes/repository' ].
 			spec

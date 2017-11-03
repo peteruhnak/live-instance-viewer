@@ -1,0 +1,13 @@
+{
+	"commentStamp" : "PeterUhnak 10/12/2015 12:48",
+	"super" : "RTObject",
+	"category" : "LiveInstanceVisualization-Roassal",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"segments"
+	],
+	"name" : "LIVRTPolyLineSegment",
+	"type" : "normal"
+}
