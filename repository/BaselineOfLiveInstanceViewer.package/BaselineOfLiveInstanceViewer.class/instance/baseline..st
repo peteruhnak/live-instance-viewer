@@ -6,7 +6,7 @@ baseline: spec
 		do: [ spec
 				project: 'DeepTraverser'
 				with: [ spec
-						className: #ConfigurationOfDeepTraverser2;
+						className: #ConfigurationOfDeepTraverser;
 						versionString: #development;
 						repository: 'http://www.smalltalkhub.com/mc/Moose/DeepTraverser/main' ].
 			spec
