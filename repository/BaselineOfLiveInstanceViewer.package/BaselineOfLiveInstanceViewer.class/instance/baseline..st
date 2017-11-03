@@ -17,5 +17,5 @@ baseline: spec
 				with: [ spec repository: 'github://peteruhnak/metalinks-toolkit/repository' ].
 			spec
 				package: 'LiveInstanceVisualization'
-				with: [ spec requires: #('UMLShapes' 'MetaLinksToolkit') ].
+				with: [ spec requires: #('UMLShapes' 'MetaLinksToolkit' 'DeepTraverser') ].
 			spec group: 'default' with: #('LiveInstanceVisualization') ]
