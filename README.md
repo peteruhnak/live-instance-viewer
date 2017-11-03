@@ -30,20 +30,7 @@ For in-depth presentation, you can read a paper presented at IWST'17: [instance_
 
 ![](figures/container-model.png)
 
-```smalltalk
-container := LIVTestContainer new.
-item1 := LIVTestItem new.
-item1 name: 'item1'.
-container addItem: item1.
-item1 container: container.
-
-item2 := LIVTestItem new name: 'item2'.
-container addItem: item2.
-item2 container: container.
-
-item1 container: nil.
-container removeItem: item1.
-```
+### MetaLinks registration with added custom annotations and computations.
 
 ```smalltalk
 modelDefs := LIVInstanceCompositeSpecificationBuilder new.
@@ -63,10 +50,6 @@ modelDefs addSpec: [ :spec |
 		addSlot: #container -> nil.
 ].
 
-
-MetaLinks registration with added custom annotations and computations.
-
-```smalltalk
 history := LIVInstanceHistory new.
 LIVDebugSession modelHistory: history.
 history specificationBuilder: modelDefs.
@@ -142,4 +125,21 @@ history inspect.
 "
 links uninstall
 "
+```
+
+### Executing code that will trigger the metalinks
+
+```smalltalk
+container := LIVTestContainer new.
+item1 := LIVTestItem new.
+item1 name: 'item1'.
+container addItem: item1.
+item1 container: container.
+
+item2 := LIVTestItem new name: 'item2'.
+container addItem: item2.
+item2 container: container.
+
+item1 container: nil.
+container removeItem: item1.
 ```
